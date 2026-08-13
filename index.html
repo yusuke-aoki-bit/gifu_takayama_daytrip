@@ -54,6 +54,7 @@ h3{font-size:16px;margin:26px 0 10px}
 .t-eat{background:var(--red-bg);color:var(--red)}
 .t-move{background:#ecefeb;color:var(--ink3)}
 .t-shop{background:var(--plum-bg);color:var(--plum)}
+.t-darts{background:var(--blue-bg);color:var(--blue)}
 .note{background:#e9f3ea;border:1px solid #c6e0cc;border-radius:9px;padding:9px 13px;font-size:13px;color:#1f5738;margin-top:9px}
 .warn{background:var(--red-bg);border:1px solid #f0cfcc;border-radius:9px;padding:9px 13px;font-size:13px;color:#8a2f27;margin-top:9px}
 .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0}
@@ -109,7 +110,7 @@ footer a{color:var(--ink3)}
     <div class="meta">
       <span>片道 141km / 1時間48分</span>
       <span>ETC 3,600円（片道）</span>
-      <span>6スポット</span>
+      <span>6スポット＋夜ダーツ</span>
       <span>お盆 8/13(木)-16(日)</span>
     </div>
   </div>
@@ -224,7 +225,7 @@ footer a{color:var(--ink3)}
 <a href="https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E5%B1%B1%E7%A5%AD%E5%B1%8B%E5%8F%B0%E4%BC%9A%E9%A4%A8" target="_blank" rel="noopener"><span class="pn" style="background:#b06a1e">8</span>高山祭屋台会館</a>
 <a href="https://www.google.com/maps/search/?api=1&query=%E9%A3%9B%E9%A8%A8%E7%89%A9%E7%94%A3%E9%A4%A8%20%E9%AB%98%E5%B1%B1%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%9B%E3%83%86%E3%83%AB" target="_blank" rel="noopener"><span class="pn" style="background:#8b968c">9</span>飛騨物産館（高山グリーンホテル）</a>
 <a href="https://www.google.com/maps/search/?api=1&query=%E4%B8%B8%E6%98%8E%20%E9%A3%9B%E9%A8%A8%E9%AB%98%E5%B1%B1%E5%BA%97" target="_blank" rel="noopener"><span class="pn" style="background:#8b968c">食</span>丸明 飛騨高山店（飛騨牛）</a>
-<a href="https://www.google.com/maps/search/?api=1&query=%E8%B1%86%E5%A4%A9%E7%8B%97%20%E6%9C%AC%E5%BA%97%20%E9%AB%98%E5%B1%B1" target="_blank" rel="noopener"><span class="pn" style="background:#8b968c">食</span>豆天狗 本店（高山ラーメン）</a>
+<a href="https://www.google.com/maps/search/?api=1&query=%E8%B1%86%E5%A4%A9%E7%8B%97%20%E6%9C%AC%E5%BA%97%20%E9%AB%98%E5%B1%B1" target="_blank" rel="noopener"><span class="pn" style="background:#8b968c">食</span>豆天狗 本店（高山ラーメン）</a><a href="https://www.google.com/maps/search/?api=1&query=%E5%BF%AB%E6%B4%BBCLUB%20%E5%B2%90%E9%98%9C%E7%BE%BD%E5%B3%B6%E5%BA%97" target="_blank" rel="noopener"><span class="pn" style="background:#2f6f8f">🎯</span>快活CLUB 岐阜羽島店</a><a href="https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1%20%E3%82%AF%E3%82%A4%E3%83%BC%E3%83%B3%E3%82%BA%E3%82%B3%E3%83%BC%E3%83%88%20%E9%AB%98%E5%B1%B1%E5%BA%97" target="_blank" rel="noopener"><span class="pn" style="background:#2f6f8f">🎯</span>クイーンズコート 高山店</a><a href="https://www.google.com/maps/search/?api=1&query=%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E3%83%AF%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0%20%E5%90%8D%E5%8F%A4%E5%B1%8B%E8%A5%BF%E6%98%A5%E5%BA%97" target="_blank" rel="noopener"><span class="pn" style="background:#2f6f8f">🎯</span>ラウンドワン 名古屋西春店</a><a href="https://www.google.com/maps/search/?api=1&query=%E3%81%8E%E3%81%B5%E5%A4%A7%E5%92%8C%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%A8%E3%83%AA%E3%82%A2%20%E4%B8%8B%E3%82%8A" target="_blank" rel="noopener"><span class="pn" style="background:#8b968c">食</span>ぎふ大和PA（下り）</a>
 </div>
 <p class="pinnote">タップ／クリックでGoogleマップが開きます（番号は地図と対応。灰色は予備・食事どころ）。</p>
 
@@ -358,6 +359,18 @@ footer a{color:var(--ink3)}
     <p class="desc">帰りも<b>往路と同じ東海北陸道</b>が最速です。141km・1時間48分・ETC3,600円。中央道経由は184kmで2時間23分かかって料金は同額、下道で中津川へ抜ける案は880円安いだけで1〜1.5時間余計にかかるので、選ぶ理由がありません。</p>
   </div>
 
+  <div class="ev key">
+    <div class="time">20:20 –</div>
+    <div class="ttl">快活CLUB 岐阜羽島店でダーツ<span class="tag t-darts">ダーツ</span></div>
+    <p class="desc">
+      羽島市舟橋町138-1（058-394-6388）。<b>24時間営業・年中無休</b>で、お盆も普通に開いています。<b>無料駐車場あり</b>、岐阜羽島駅から車3〜5分（徒歩なら14分）。<br>
+      <b>DARTSLIVE3 完備で、ブース料金だけで投げ放題</b>。ドリンクバーとソフトクリームも込みなので、<b>運転する側が損をしません</b>。ここが効きます ── ダーツバーだとチャージ＋ワンドリンクが実質必須で、飲まない人のコスパが悪いので。<br>
+      料金は公式の表が画像で数値を取れませんでしたが、全国的な目安は<b>最初の30分290円</b>・<b>初回のみ会員登録370円</b>・土日祝は＋220円。2時間で1人1,200〜1,500円くらいの見込みです。
+    </p>
+    <div class="warn"><b>レンタカーの返却時刻が唯一の壁です。</b>駅前の営業所は20:00前後に閉まるところが多く、20:05着だと間に合いません。予約のときに<b>「20時以降に返せるか」「翌朝返却にできるか」</b>を必ず確認してください。難しければ<b>先に車を返して、駅から徒歩14分かタクシー5分</b>で向かう形になります。</div>
+    <div class="note"><b>どうしても返却が20:00締切なら</b>、飛騨物産館を30分に切り上げて<b>17:45に高山を出れば19:40着</b>。返却してから20時前にダーツを始められます。物産館は23時まで開いている＝この日の唯一の余白なので、削るならここです。</div>
+  </div>
+
 </div>
 
 <div class="card">
@@ -366,6 +379,26 @@ footer a{color:var(--ink3)}
   <p class="desc" style="margin-top:10px">
   10:10 古い町並み（朝は空いている）→ 11:10 レトロミュージアム → 12:10 <b>丸明 飛騨高山店で飛騨牛ランチ</b>（天満町・11:00〜15:00・無休・駐車20台）→ 13:20 高山昭和館 → 14:30 屋台会館 → 15:20 鍾乳洞へ移動 → 15:50〜16:40 鍾乳洞 → 17:20 飛騨物産館 → 18:10 高山IC<br><br>
   <b>この形なら飛騨牛ランチも入り、どこも駆け足になりません。</b>朝がつらくなければ、断然こちらをおすすめします。
+  </p>
+</div>
+
+<div class="card">
+  <h3 style="margin-top:0">🎯 ダーツ、ほかの選び方</h3>
+  <div class="tw">
+  <table>
+  <colgroup><col style="width:26%"><col style="width:14%"><col style="width:60%"></colgroup>
+  <thead><tr><th>店</th><th>どこ</th><th>こういう人に</th></tr></thead>
+  <tbody>
+  <tr class="pick"><td>快活CLUB 岐阜羽島店<br><span style="font-size:11px;color:#b06a1e">★本命</span></td><td>羽島市<br>駅から車3分</td><td><b>24時間・無料駐車場・投げ放題・ドリンクバー込み。</b>20時戻りという条件に完全に噛み合います。酒がメインじゃないので運転する側も普通に楽しめる</td></tr>
+  <tr><td>クイーンズコート 高山店</td><td>高山市岡本町<br>市街から車5分</td><td><b>高山で遊んでから帰りたいなら。</b>12:00〜翌2:00・年中無休・駐車場あり・VSPHOENIX 3台。カラオケとビリヤードも。ただし帰宅が深夜になります</td></tr>
+  <tr><td>ラウンドワンスタジアム<br>名古屋西春店</td><td>北名古屋市<br>車35〜45分</td><td><b>ダーツだけじゃ物足りない人へ。</b>スポッチャでダーツ・ビリヤード・バッティング全部込み（90分2,340円〜）。<b>8/13〜15は24時間営業</b>。ただし<b>8/8〜16は全施設が土日祝料金</b>、しかも帰りが深夜に</td></tr>
+  <tr><td>Karaoke&amp;Darts Bar TIA</td><td>岐阜市玉宮町<br>車30分</td><td><b>バーの雰囲気で飲みながら投げたいなら。</b>20:00〜翌2:00・日曜休。ただし<b>駐車場なし</b>でコインパーキング前提、しかも運転する側は飲めません</td></tr>
+  </tbody>
+  </table>
+  </div>
+  <p class="desc" style="margin-top:12px">
+  <b>ラウンドワンは岐阜羽島の近くにありません。</b>岐阜県内はモレラ岐阜店（本巣市）の1店舗だけで、一宮市・大垣市・岐阜市中心部にも無し。しかもモレラ岐阜店は<b>公式の施設一覧にダーツの記載がなく</b>（第三者サイトは「あり」と書いていて食い違う）、スポッチャもありません。ラウンドワン狙いなら名古屋西春まで出る必要があります。<br><br>
+  ちなみに今回挙げた店はすべて<b>ソフトダーツ</b>（プラスチックの矢・自動採点）です。初めてならこれ一択で、ハードダーツは金属の針なので初心者に投げさせない店もあります。
   </p>
 </div>
 
@@ -393,11 +426,12 @@ footer a{color:var(--ink3)}
 <tr><td>昼食（SA）</td><td>ひるがの高原SA</td><td class="num">1,500</td><td class="num">3,000</td></tr>
 <tr><td>食べ歩き</td><td>飛騨牛にぎり・串焼き・みたらし団子など</td><td class="num">2,000</td><td class="num">4,000</td></tr>
 <tr><td>土産</td><td>飛騨物産館</td><td class="num">3,000</td><td class="num">6,000</td></tr>
-<tr class="pick"><td>合計</td><td>2名で1台・日帰り</td><td class="num">約20,550円</td><td class="num">約41,100円</td></tr>
+<tr><td>ダーツ</td><td>快活CLUB 2時間・ドリンクバー込み。初回のみ会員登録370円が別途</td><td class="num">1,700</td><td class="num">3,400</td></tr>
+<tr class="pick"><td>合計</td><td>2名で1台・日帰り・ダーツ込み</td><td class="num">約22,250円</td><td class="num">約44,500円</td></tr>
 </tbody>
 </table>
 </div>
-<p class="desc">入館料だけで1人4,200円かかるのがこの日程の特徴です。<b>昭和館とレトロミュージアムのどちらかを切れば、1人900〜1,200円浮いて時間も1時間浮きます</b>。</p>
+<p class="desc">入館料だけで1人4,200円かかるのがこの日程の特徴です。ダーツを名古屋西春のスポッチャにすると1人2,340〜2,990円（お盆は土日祝料金）に上がります。<b>昭和館とレトロミュージアムのどちらかを切れば、1人900〜1,200円浮いて時間も1時間浮きます</b>。</p>
 
 <h2><span class="n">5</span>出発前にやること</h2>
 <ul class="ck">
@@ -407,6 +441,7 @@ footer a{color:var(--ink3)}
 <li><b>レンタカーを早めに予約。</b>8:00開店の会社（ニッポン／トヨタ／オリックス／Jネット）を選ぶと出発が読めます</li>
 <li><b>羽織るものを1枚。</b>鍾乳洞の中は通年12℃。8月の服装のままだと本当に震えます</li>
 <li><b>滑りにくい靴で。</b>鍾乳洞は足元が濡れていて、古い町並みも石畳です</li>
+<li><b>レンタカーの返却時刻を予約時に確認。</b>ダーツに行くなら「20時以降の返却」か「翌朝返却」ができる営業所を選んでください。ここを詰めておかないと夜の予定が崩れます</li>
 <li><b>ETCカードを忘れずに。</b>往復7,200円。<b>お盆は休日割引が効かない</b>ので、この額がそのままかかります</li>
 <li>市街に入る前に<b>駐車場の満空情報</b>（parking.takayama.gifu.jp / takayama-accesstime.jp）を助手席の人がチェック。<b>狙うのは高山駅西か天満</b></li>
 <li><b>高山も8月は暑いです。</b>平年の日最高は31.0℃で、岐阜（33.4℃）との差はわずか2.4℃。涼しいのは朝晩だけなので、日中の水分補給は平地と同じつもりで</li>
@@ -438,9 +473,14 @@ footer a{color:var(--ink3)}
 <a href="https://car.orix.co.jp/shops/?shops_pk=425">オリックスレンタカー 岐阜羽島駅前店</a>｜
 <a href="https://www.hidagyu-maruaki.co.jp/restaurant/restaurant_hidatakayama">丸明 飛騨高山店</a>｜
 <a href="https://mametengu.com/access/">豆天狗 本店</a>｜
-<a href="https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=52&block_no=47617">気象庁 高山の平年値</a>
+<a href="https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_ym.php?prec_no=52&block_no=47617">気象庁 高山の平年値</a>｜
+<a href="https://www.kaikatsu.jp/shop/detail/20438.html">快活CLUB 岐阜羽島店</a>｜
+<a href="https://www.kaikatsu.jp/info/detail/dartslive3.html">快活CLUB DARTSLIVE3</a>｜
+<a href="https://www.hotpepper.jp/strJ001040158/">クイーンズコート高山店</a>｜
+<a href="https://www.round1.co.jp/service/2026summer/obon02.html">ラウンドワン お盆営業時間</a>｜
+<a href="https://www.round1.co.jp/shop/facility/aichi-nagoyanisiharu.html">ラウンドワン 名古屋西春店 施設</a>
 </div>
-<p style="margin-top:16px"><b style="color:#2f6f4f">版：2026-08-12（お盆 8/13-16 対応版）</b><br>営業時間・料金は2026年8月12日時点の調査。<b>国道158号の通行止め状況は変わる可能性があります。</b><b>レトロミュージアムの営業時間と屋台会館の料金は公式内で情報が食い違っているため、必ず電話で確認してください。</b>各館の最終入館時刻は公式に明記がなく、閉館30分前を目安にしています。</p>
+<p style="margin-top:16px"><b style="color:#2f6f4f">版：2026-08-12（お盆 8/13-16 対応・夜ダーツ入り）</b><br>営業時間・料金は2026年8月12日時点の調査。<b>国道158号の通行止め状況は変わる可能性があります。</b><b>レトロミュージアムの営業時間と屋台会館の料金は公式内で情報が食い違っているため、必ず電話で確認してください。</b>各館の最終入館時刻は公式に明記がなく、閉館30分前を目安にしています。</p>
 </footer>
 
 </div>
